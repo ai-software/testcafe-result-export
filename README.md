@@ -1,0 +1,1 @@
+# testcafe-result-export
