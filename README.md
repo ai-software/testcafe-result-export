@@ -18,7 +18,7 @@ npm install testcafe-reporter-ai-excel
 When you run tests from the command line, specify the reporter name by using the `--reporter` option:
 
 ```
-testcafe chrome 'path/to/test/file.js' --reporter ai-excel
+testcafe chrome 'path/to/test/file.js' --reporter ai-excel > Test-File.csv
 ```
 
 

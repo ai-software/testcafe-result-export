@@ -2,11 +2,11 @@
   "name": "testcafe-reporter-ai-excel",
   "version": "1.0.0",
   "description": "ai-excel TestCafe reporter plugin.",
-  "repository": "https://github.com/shreenil.patel/testcafe-reporter-ai-excel",
+  "repository": "https://github.com/ai-software/testcafe-result-export",
   "author": {
-    "name": "",
-    "email": "",
-    "url": "http://idontknowyet.com"
+    "name": "AI Software LLC",
+    "email": "info@aisoftwarellc.com",
+    "url": "http://aisoftwarellc.com"
   },
   "main": "lib/index",
   "files": [
