@@ -1,13 +1,12 @@
 {
-  "name": "testcafe-reporter-ai-excel",
+  "name": "@ai-software/testcafe-reporter-ai-excel",
   "version": "1.0.0",
   "description": "ai-excel TestCafe reporter plugin.",
-  "repository": "https://github.com/ai-software/testcafe-result-export",
-  "author": {
-    "name": "AI Software LLC",
-    "email": "info@aisoftwarellc.com",
-    "url": "http://aisoftwarellc.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-software/testcafe-result-export.git"
   },
+  "author": "AI Software LLC <info@aisoftwarellc.com> (http://aisoftwarellc.com)",
   "main": "lib/index",
   "files": [
     "lib"
@@ -41,5 +40,13 @@
   "dependencies": {
     "@babel/runtime": "^7.3.4",
     "gulp-mocha": "^7.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/ai-software/testcafe-result-export/issues"
+  },
+  "homepage": "https://github.com/ai-software/testcafe-result-export#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
