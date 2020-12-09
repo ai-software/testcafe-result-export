@@ -1,7 +1,7 @@
 # testcafe-reporter-ai-excel
 [![Build Status](https://travis-ci.org/shreenil.patel/testcafe-reporter-ai-excel.svg)](https://travis-ci.org/shreenil.patel/testcafe-reporter-ai-excel)
 
-This is the **ai-excel** reporter plugin for [TestCafe](http://devexpress.github.io/testcafe).
+This is the CSV reporter plugin for [TestCafe](http://devexpress.github.io/testcafe).
 
 <p align="center">
     <img src="https://raw.github.com/shreenil.patel/testcafe-reporter-ai-excel/master/media/preview.png" alt="preview" />
@@ -34,4 +34,5 @@ testCafe
 ```
 
 ## Author
- (http://idontknowyet.com)
+ AI Software LLC.
+ http://aisoftwarellc.com
