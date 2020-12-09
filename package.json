@@ -1,5 +1,5 @@
 {
-  "name": "@ai-software/testcafe-reporter-ai-excel",
+  "name": "testcafe-reporter-ai-excel",
   "version": "1.0.0",
   "description": "ai-excel TestCafe reporter plugin.",
   "repository": {
