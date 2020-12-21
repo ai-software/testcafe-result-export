@@ -13,7 +13,7 @@ module.exports = function () {
             this.startTime = startTime;
             this.testCount = testCount;
             this.write(this.moment().format('DD MMMM YYYY, hh:mm A')).newline();
-            this.write('Build, Module, Screen, Testcase Number, Scenario, Result, Test Duration').newline();
+            this.write('Build, Module, Screen, Testcase Number, Scenario, Result, Failure Info, Test Duration').newline();
         },
 
         reportFixtureStart (name, path, meta) {
@@ -31,7 +31,16 @@ module.exports = function () {
             const result = hasErrors ? 'FAILED' : 'PASSED';
             const durationMs = testRunInfo.durationMs;
 
-            this.write(`${build}, ${module}, ${screen}, ${meta.testcaseNo}, ${meta.scenario}, ${result}, ${durationMs}ms`)
+            let errInfo = '- ';
+
+            if (hasErrors) {
+                errors.forEach(element => {
+                    if (element.errMsg) 
+                        errInfo += element.errMsg + '-';
+                });
+            }
+
+            this.write(`${build}, ${module}, ${screen}, ${meta.testcaseNo}, ${meta.scenario}, ${result}, ${errInfo}, ${durationMs}ms`)
                 .newline();
         },
 
